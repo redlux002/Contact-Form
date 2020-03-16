@@ -1,0 +1,70 @@
+html,
+body {
+    height: 100%;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.inputContainer {
+    height: 90vh;
+    width: 500px;
+    background: rgb(4, 167, 104);
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.inputContainer h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+
+.inputItem {
+    padding: 0px 40px;
+}
+
+.inputItem input,
+textarea {
+    width: 100%;
+}
+
+.inputBtns {
+    display: table;
+    margin: 0 auto;
+}
+
+.inputBtns button {
+    margin: 8px 0 0 15px;
+}
+
+.outputContainer {
+    height: 90vh;
+    width: 500px;
+    background: rgb(2, 108, 196);
+    position: absolute;
+    top: 50%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    color: black;
+}
+
+.outputContainer h1 {
+    color:black;
+    text-align: center;
+}
+
+.outputRestrictions {
+    padding: 0px 40px;
+}
